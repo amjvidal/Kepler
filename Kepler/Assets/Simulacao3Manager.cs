@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Simulador1Manager : MonoBehaviour
+public class Simulacao3Manager : MonoBehaviour
 {
     [SerializeField] private string telaAnterior;
     [SerializeField] private string telaTeoria;

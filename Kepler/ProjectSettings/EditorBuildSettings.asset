@@ -11,5 +11,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Lei1Simulacao.unity
     guid: 39018360fbc6e944482926fd5a3ec48c
+  - enabled: 1
+    path: Assets/Lei1Teoria.unity
+    guid: 2aa123f4d6f59a44dae332330fce76d8
+  - enabled: 1
+    path: Assets/Lei2Simulacao.unity
+    guid: 0c2c61a8ab39b0948851ba8d7b546450
+  - enabled: 1
+    path: Assets/Lei2Teoria.unity
+    guid: c608cc96c205e9445afec57a7d2e0d0c
+  - enabled: 1
+    path: Assets/Lei3Simulacao.unity
+    guid: 511558cff3f601f4c9ebf3e4943c4212
+  - enabled: 1
+    path: Assets/Lei3Teoria.unity
+    guid: 00f83e84f1cc27f4d910bcabbb200ea6
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 3a8da514e2e47ad478d87364fc513ffa, type: 2}

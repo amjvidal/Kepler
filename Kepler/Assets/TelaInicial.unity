@@ -1226,7 +1226,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 624111239}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 734487888}
+        m_TargetAssemblyTypeName: MenuPrincipalMenager, Assembly-CSharp
+        m_MethodName: AbrirSimulacaoLei3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &624111239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1294,7 +1306,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d9aec4290755bc43a5cc8bb3815e09a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nomeDaTela: Lei1Simulacao
+  lei1Simulacao: Lei1Simulacao
+  lei1Teoria: Lei1Teoria
+  lei2Simulacao: Lei2Simulacao
+  lei2Teoria: Lei2Teoria
+  lei3Simulacao: Lei3Simulacao
+  lei3Teoria: Lei3Teoria
+  planetas: 
+  simulacao: 
+  creditos: 
 --- !u!4 &734487889
 Transform:
   m_ObjectHideFlags: 0
@@ -1780,7 +1800,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1008049537}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 734487888}
+        m_TargetAssemblyTypeName: MenuPrincipalMenager, Assembly-CSharp
+        m_MethodName: AbrirTeoriaLei1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1008049537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2627,7 +2659,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1347659087}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 734487888}
+        m_TargetAssemblyTypeName: MenuPrincipalMenager, Assembly-CSharp
+        m_MethodName: AbrirTeoriaLei3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1347659087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2748,7 +2792,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1413863070}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 734487888}
+        m_TargetAssemblyTypeName: MenuPrincipalMenager, Assembly-CSharp
+        m_MethodName: AbrirSimulacaoLei2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1413863070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2869,7 +2925,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1431954826}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 734487888}
+        m_TargetAssemblyTypeName: MenuPrincipalMenager, Assembly-CSharp
+        m_MethodName: AbrirSimulacaoLei3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1431954826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2993,7 +3061,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 734487888}
         m_TargetAssemblyTypeName: MenuPrincipalMenager, Assembly-CSharp
-        m_MethodName: AbrirTela
+        m_MethodName: AbrirSimulacaoLei1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

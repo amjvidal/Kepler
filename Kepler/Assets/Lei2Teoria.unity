@@ -160,7 +160,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1\xAA Lei: Lei das Orbitas"
+  m_text: "2\xAA Lei: Lei das \xC1reas\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -340,7 +340,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1156233245}
-        m_TargetAssemblyTypeName: Teoria1Maneger, Assembly-CSharp
+        m_TargetAssemblyTypeName: Teoria2Manager, Assembly-CSharp
         m_MethodName: AbrirSimulacao
         m_Mode: 1
         m_Arguments:
@@ -760,7 +760,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f79da39fe01b0cf40a3ed786d623d31b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1951d6c265b2aea48bacaa4ded21fe1a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -813,7 +813,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1030.8, y: 696.7042}
+  m_SizeDelta: {x: 1030.8, y: 464.4667}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &735939399
 MonoBehaviour:
@@ -835,11 +835,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Kepler n\xE3o conseguiu explicar o motivo das \xF3rbitas serem el\xEDpticas,
-    pois na sua \xE9poca faltavam-lhe ferramentas para complementar seus estudos,
-    por\xE9m, mesmo assim, ele foi exitoso ao descobrir que a elipse servia como
-    representa\xE7\xE3o da \xF3rbita medida e, em sua vis\xE3o, sua grande descoberta
-    constitu\xEDa o segredo matem\xE1tico da cria\xE7\xE3o de Deus."
+  m_text: "Outro ponto importante sobre a segunda lei \xE9 que Kepler, atrav\xE9s
+    dela, tamb\xE9m conseguiu relacionar o ano de um planeta \xE0 sua dist\xE2ncia
+    em rela\xE7\xE3o ao Sol dando origem a sua terceira lei que foi publicada em
+    1619"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -1154,7 +1153,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1156233245}
-        m_TargetAssemblyTypeName: Teoria1Maneger, Assembly-CSharp
+        m_TargetAssemblyTypeName: Teoria2Manager, Assembly-CSharp
         m_MethodName: AbrirProximaLei
         m_Mode: 1
         m_Arguments:
@@ -1287,7 +1286,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1156233245}
-        m_TargetAssemblyTypeName: Teoria1Maneger, Assembly-CSharp
+        m_TargetAssemblyTypeName: Teoria2Manager, Assembly-CSharp
         m_MethodName: Voltar
         m_Mode: 1
         m_Arguments:
@@ -1488,11 +1487,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1156233243}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ed22e2e1eaf86499a7f8f33b5149e1, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b699d3a80bc1214b87c1e95574a28c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  telaSimulacao: Lei1Simulacao
-  telaProximaLei: Lei2Teoria
+  telaSimulacao: Lei2Simulacao
+  telaProximaLei: Lei3Teoria
   menu: TelaInicial
 --- !u!1 &1452026301
 GameObject:
@@ -1529,7 +1528,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1030.8, y: 1118.6309}
+  m_SizeDelta: {x: 1030.8, y: 880.3267}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1452026303
 MonoBehaviour:
@@ -1551,13 +1550,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Kepler levou dois anos calculando a dist\xE2ncia do Sol at\xE9 Marte.
-    Ele repetiu seu experimento, excessivas vezes, em diversos pontos da \xF3rbita.
-    Seus c\xE1lculos apontavam que a \xF3rbita era oval, ela parecia com um c\xEDrculo,
-    por\xE9m era mais achatada para dentro de dois lados opostos. Depois de uma s\xE9rie
-    de tentativas infrut\xEDferas, para se chegar \xE0 conclus\xE3o sobre a \xF3rbita,
-    concluiu que o problema se reolveria se os planetas se movessem em \xF3rbitas
-    se movessem em \xF3rbitas el\xEDpticas com velocidades bem vari\xE1veis."
+  m_text: "Na segunda lei, Kepler explica que quanto mais distante o planeta estiver
+    do Sol, mais devagar ele vem a se mover e quanto mais pr\xF3ximo ele estiver
+    do Sol mais r\xE1pido ele se mover\xE1. Em outras palavras, quando o ponto da
+    \xF3rbita de um planeta se encontra mais pr\xF3ximo do Sol e vai se afastando
+    para o ponto mais distante sua velocidade diminui e quando ele caminha do ponto
+    mais distante do Sol para o mais pr\xF3ximo sua velocidade aumenta."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -1681,7 +1679,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1643196010}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
@@ -1871,7 +1869,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -664.5457}
+  m_AnchoredPosition: {x: 0, y: -434.0442}
   m_SizeDelta: {x: 1080, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2021341515
